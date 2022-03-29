@@ -1,0 +1,43 @@
+{
+    "name": {
+        "en": "Bold",
+        "fr": "Audacieux"
+    },
+    "description": {
+        "en": "The main image is displayed in full width and takes 85% of the height. The logo, menu, slogan and buttons are displayed on top of it.",
+        "fr": "L'image principale est affichée en arrière-plan, sur toute la largeur de l'écran et sur 85% de sa hauteur. Le logo, le menu, le slogan et les boutons sont affichés par dessus."
+    },
+    "defaultColors": {
+        "primary": "0F345C",
+        "secondary": "E83A7F",
+        "third": "2A568E"
+    },
+    "defaultFonts": {
+        "title": "Merriweather Sans",
+        "text": "Merriweather Sans"
+    },
+    "thumbnail": "thumbnail.jpg",
+    "templates": {
+        "style": "src/style.css.twig",
+        "script": "src/script.js.twig",
+        "head": "src/head.html.twig",
+        "layout": "src/layout.html.twig",
+        "header": "src/header.html.twig",
+        "footer": "src/footer.html.twig",
+        "list": "src/list.html.twig",
+        "content": "src/content.html.twig",
+        "home": "src/home.html.twig",
+        "home-calls-to-action": "src/home/calls-to-action.html.twig",
+        "home-custom-content": "src/home/custom-content.html.twig",
+        "home-newsletter": "src/home/newsletter.html.twig",
+        "home-posts": "src/home/posts.html.twig",
+        "home-socials": "src/home/socials.html.twig",
+        "manifesto-list": "src/manifesto/list.html.twig",
+        "manifesto-view": "src/manifesto/view.html.twig",
+        "trombinoscope-list": "src/trombinoscope/list.html.twig",
+        "trombinoscope-view": "src/trombinoscope/view.html.twig"
+    },
+    "assets": [
+        "assets/home-default.jpg"
+    ]
+}
