@@ -5,7 +5,9 @@
                 {{ previewing_text }}
             </div>
         {% endif %}
-
+        {% if title == "Test" %}
+            <p>ok</p>
+        {% endif %}
         {% if section_name|default(null) %}
             <h3 class="content-splash-section">
                 {% if section_url|default(null) %}
