@@ -23,11 +23,74 @@
         </div>
     </div>
 
-    <div class="container-fluid">
-        {% for key, block in blocks %}
-            {% if key != 0 or block.type != 'cta' %}
-                {{ block.content|raw }}
-            {% endif %}
-        {% endfor %}
-    </div>
+			<div class="container-fluid intro-homepage">
+				<div class="row">
+					<div class="col-md-8">
+						<div>
+							<p>Depuis 2015, <a target="_blank" href="https://datack.fr">l'agence Datack</a> accompagne tous ceux qui portent une cause et agissent en faveur de l'intérêt général. Nous soutenons les ONG, entreprises et change makers dans toutes leurs campagnes d’influence : élections, plaidoyer, affaires publiques...</p>
+							<p>Organisme de formation officiel Datadocké depuis 2019, Datack met son expertise des stratégies d'influence et des outils de campaigning à votre profit avec Datack Camp., et un catalogue de formations conçues pour les enjeux de l'engagement ou du non-profit.</p>
+							<p>Donnez-vous les moyens de servir vos combats : montez en compétences avec nous !</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div>
+							<p>→ Datadocké depuis 2019</p>
+							<p>→ Toutes nos formations sont éligibles au financement par votre OPCO</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid formations-homepage">
+				<div class="row formations-homepage-intro">
+					<div class="col-md-6">
+						<h2>NOS FORMATIONS</h2>
+						<p>La liste de nos formations est susceptible d’évoluer avec l’actualité, l’apparition de nouveau outils…</p>
+						<a href="">Vous souhaitez rester informé ?</a>
+					</div>
+				</div>
+				<div class="row formations-homepage-exemple">
+					<div class="col-md-6">
+						<a href="">
+							<article class="formation-digital">
+								<span class="en-cours">INSCRIPTIONS EN COURS ●</span>
+								<h3>CAMPAIGNING ET <br>DIGITAL ORGANIZING</h3>
+								<div>
+									<p>→ Construisez vos campagnes</p>
+									<p>→ Organisez votre influence</p>	
+								</div>						
+							</article>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="">
+							<article class="formation-reseaux">
+								<span class="en-cours">INSCRIPTIONS EN COURS ●</span>
+								<h3>RÉSEAUX SOCIAUX</h3>
+								<div>
+									<p>→ Mobilisez sur les réseaux sociaux</p>
+									<p>→ Développez et animez vos communautés</p>	
+								</div>						
+							</article>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="">
+							<article class="formation-ux">
+								<span class="en-attente">TENEZ MOI INFORMÉ DE LA PROCHAINE SESSION ○</span>
+								<h3>DESIGN DIGITAL, UI/UX </h3>
+								<div>
+									<p>→ Développez l'impact visuel de vos campagnes</p>
+									<p>→ Créez vos outils de communication</p>		
+								</div>					
+							</article>
+						</a>
+					</div>										
+				</div>
+			</div>
+			<div class="images-homepage-ordi">
+				<img src="img/img-camp-ordi.jpg">
+			</div>			
+			<div class="images-homepage-mobile">
+				<img src="img/img-camp-gauche.jpg"><img src="img/img-camp-droite.jpg">
+			</div>
 </div>
