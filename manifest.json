@@ -38,6 +38,12 @@
         "trombinoscope-view": "src/trombinoscope/view.html.twig"
     },
     "assets": [
-        "assets/home-default.jpg"
+        "assets/home-default.jpg",
+        "assets/back-digital.png",
+        "assets/back-reseaux.png",
+        "assets/back-ux.png",
+        "assets/img-camp-droite.jpg",
+        "assets/img-camp-gauche.jpg",
+        "assets/img-camp-ordi.jpg"    
     ]
 }
