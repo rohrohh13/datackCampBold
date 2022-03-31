@@ -1,33 +1,3 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@500&display=swap" rel="stylesheet"> 
-<script>
-jQuery(function(){
-  jQuery( ".attente-formation-flex-div" ).mouseover(function() {
-    jQuery(this).find(".attente-formation-opacity p").addClass('visible-legende');
-  });
-});
-
-jQuery(function(){
-  jQuery( ".attente-formation-flex-div" ).mouseout(function() {
-    $(this).find(".attente-formation-opacity p").removeClass('visible-legende');
-  });
-});
-
-
-
-
-
-jQuery(function(){
-  jQuery(".faqTitre img").click(function(){
-        if (jQuery(this).hasClass("essaiUp")) {
-            jQuery(this).parent().next(".faqReponse").removeClass('hideFaq');
-            jQuery(this).removeClass('essaiUp');
-            
-        } else {
-            jQuery(this).parent().next(".faqReponse").addClass('hideFaq');
-            jQuery(this).addClass('essaiUp');
-        }
-    });
-});
-</script>
