@@ -1,1 +1,28 @@
-// no-op
+$(function(){
+  $( ".attente-formation-flex-div" ).mouseover(function() {
+    $(this).find(".attente-formation-opacity p").addClass('visible-legende');
+  });
+});
+
+jQuery(function(){
+  jQuery( ".attente-formation-flex-div" ).mouseout(function() {
+    $(this).find(".attente-formation-opacity p").removeClass('visible-legende');
+  });
+});
+
+
+
+
+
+jQuery(function(){
+  jQuery(".faqTitre img").click(function(){
+        if (jQuery(this).hasClass("essaiUp")) {
+            jQuery(this).parent().next(".faqReponse").removeClass('hideFaq');
+            jQuery(this).removeClass('essaiUp');
+            
+        } else {
+            jQuery(this).parent().next(".faqReponse").addClass('hideFaq');
+            jQuery(this).addClass('essaiUp');
+        }
+    });
+});
