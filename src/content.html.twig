@@ -3,7 +3,11 @@
 
     <div class="container-fluid">
     {% if title =='CONTACTEZ-NOUS' %}
-    pppp
+        <div class="row">
+            <div class="col-md-6">
+                {{ content|raw }}
+            </div>
+        </div>
     {% else %}
         {{ content|raw }}
     {% endif %}    
