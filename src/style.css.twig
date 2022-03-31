@@ -216,7 +216,7 @@ body {
 }
 
 .formation-digital {
-	background-image: url(../img/back-digital.png);
+	background-image: url('{{ jumbo_image|default(citipo_theme_asset_url('assets/home-default.jpg')) }}');
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right;
