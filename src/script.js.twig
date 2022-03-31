@@ -26,3 +26,16 @@ jQuery(function(){
         }
     });
 });
+
+jQuery(function(){
+   jQuery('.menu-mobile').click(function(){
+    if (jQuery(this).hasClass("menu-open")) {
+            jQuery(this).removeClass('menu-open');      
+            jQuery('.menu-mobile-ouvert').addClass('hide');    
+        } else {
+
+            jQuery(this).addClass('menu-open');
+            jQuery('.menu-mobile-ouvert').removeClass('hide');   
+        }
+   });
+});
