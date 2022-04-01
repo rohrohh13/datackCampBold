@@ -52,7 +52,7 @@
                                             <ul>
                                                 {% for child in item.children %}
                                                     <li>
-                                                        <a href="{{ child.url }}" data-turbo="optional"
+                                                        <a href="{{ child.url }}"
                                                            {% if child.openNewTab %}target="_blank" rel="noopener noreferrer"{% endif %}>
                                                             {{ child.label }}
                                                         </a>
