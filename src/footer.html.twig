@@ -20,7 +20,7 @@
                                 <div class="mt-3">
                                     {% for child in item.children %}
                                         <div class="mb-1">
-                                            <a href="{{ child.url }}" class="" data-turbo="optional"
+                                            <a href="{{ child.url }}" class=""
                                                {% if child.openNewTab %}target="_blank" rel="noopener noreferrer"{% endif %}>
                                                 {{ child.label }}
                                             </a>
