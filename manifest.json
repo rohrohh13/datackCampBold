@@ -39,6 +39,7 @@
     },
     "assets": [
         "assets/home-default.jpg",
+        "assets/main.js",
         "assets/back-digital.png",
         "assets/back-reseaux.png",
         "assets/back-ux.png",
